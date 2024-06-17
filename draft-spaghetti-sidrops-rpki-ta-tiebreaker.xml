@@ -177,7 +177,7 @@ version="3">
       <name>Security Considerations</name>
       <t>
         When Relying Parties inadvertently use a different instance of the TA certificate than the TA operator intended for RPs to use, the certification path validation process will yield an unexpected outcome.
-        Standardization of a tiebreaking scheme helps both RP and TA operators arrive at determinstic outcomes.
+        Standardization of a tiebreaking scheme helps both RP and TA operators arrive at deterministic outcomes.
       </t>
     </section>
 
@@ -226,12 +226,11 @@ version="3">
     <section removeInRFC="true">
       <name>Implementation status</name>
       <t>
-        This section records the status of known implementations of the protocol defin ed by this specification at the time of posting of this Internet-Draft, and is based o
-n a proposal described in <xref target="RFC7942" />.
+        This section records the status of known implementations of the protocol defined by this specification at the time of posting of this Internet-Draft, and is based on a proposal described in <xref target="RFC7942" />.
         The description of implementations in this section is intended to assist the IETF in its decision processes in progressing drafts to RFCs.
         Please note that the listing of any individual implementation here does not imply endorsement by the IETF.
         Furthermore, no effort has been spent to verify the information presented here that was supplied by IETF contributors.
-        This is not intended as, and must not be construed to be, a catalog of availab le implementations or their features.
+        This is not intended as, and must not be construed to be, a catalog of available implementations or their features.
         Readers are advised to note that other implementations may exist.
       </t>
       <t>
