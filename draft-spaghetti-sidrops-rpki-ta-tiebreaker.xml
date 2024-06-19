@@ -73,7 +73,7 @@ version="3">
     <abstract>
     <t>
         A Trust Anchor (TA) in the RPKI is represented by a self-signed X.509 Certification Authority (CA) certificate.
-        Over time, Relying Parties (RP) may have acquired acquired multiple different issuances of valid TA certificates from the same TA operator.
+        Over time, Relying Parties (RP) may have acquired multiple different issuances of valid TA certificates from the same TA operator.
         This document proposes a tiebreaking scheme to be used by RPs to select one TA certificate for certification path validation.
         This document updates RFC 8630.
       </t>
