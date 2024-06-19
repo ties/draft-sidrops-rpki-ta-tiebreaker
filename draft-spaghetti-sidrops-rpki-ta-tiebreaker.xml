@@ -96,7 +96,7 @@ version="3">
         Some Trust Anchor certificates were issued with extended validity periods, in some cases up to a century.
         Since TA certificates are the root, and thus have no CRL covering them, Trust Anchor operators cannot revoke previously issued TA certificates.
         This means that an on-path adversary or caching network elements could present Relying Parties with an older instance of the TA certificate than the TA operator intends Relying Parties to use.
-        This document proposes a tiebreaking scheme for Relying Parties, preferring (1) the 'more recently' issued certificate, and (2) the certificate with the shortest lifetime among certificates with equal notBefore.
+        This document proposes a tiebreaking scheme for Relying Parties, preferring (1) the 'more recently' issued certificate, and (2) the certificate with the shortest validity period among certificates with equal notBefore.
       </t>
 
       <section anchor="reqs-lang">
